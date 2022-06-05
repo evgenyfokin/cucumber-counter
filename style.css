@@ -67,6 +67,7 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 20px;
+    animation: colorchange 7s infinite alternate;
 }
 
 .counter-title {
@@ -107,5 +108,26 @@ body {
     }
 
     .container-input {
+    }
+}
+
+@keyframes colorchange {
+    0% {
+        color: rgb(255, 255, 255);
+    }
+    20% {
+        color: rgb(78, 78, 78);
+    }
+    40% {
+        color: rgb(255, 255, 255);
+    }
+    60% {
+        color: rgb(78, 78, 78);
+    }
+    80% {
+        color: rgb(255, 255, 255);
+    }
+    100% {
+        color: rgb(78, 78, 78);
     }
 }
