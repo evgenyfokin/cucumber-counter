@@ -97,6 +97,7 @@ body {
     .digitalClock {
         text-align: center;
         width: 100vw;
+
     }
 
     .digitalClock .block {
@@ -107,6 +108,9 @@ body {
 @media (max-width: 480px) {
     .digitalClock h1 {
         font-size: 2rem;
+    }
+    .digitalClock{
+        margin-top: -100px;
     }
 
 
