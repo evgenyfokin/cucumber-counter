@@ -9,7 +9,6 @@ function calculateTime() {
     let minute = date.getMinutes();
     let ampm = hour >= 12 ? 'PM' : 'AM';
     let dayNames = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
-    console.log(dayNumber);
 
     hour = hour % 12;
     hour = hour ? hour : '12';
